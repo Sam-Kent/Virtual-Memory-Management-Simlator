@@ -4,13 +4,21 @@ The memory management simulator is used to simulate page fault behavior in a pag
 # Running the Simulator
 optional arguments:
   -h, --help  show this help message and exit
+  
    -ps PS      page size 
+   
   -tp TP      total_number_of_page_frames (in main memory)
+  
   -r R        number_of_page_frames_per_process for FIFO, LRU, LRU-K, LFU and OPT, or delta (window size) for the Working Set algorithm
+  
   -x X        lookahead window size for OPT, X for LRU-X, 0 for others (which do not use this value)
+  
   -min MIN    min free pool size
+  
   -max MAX    max free pool size
+  
   -k K        total number of processes
+  
   
  # Example.
 
